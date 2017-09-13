@@ -1,0 +1,6 @@
+I add two functions.
+void savedungeon():
+it is the function to save the bytes data to the binary file. For the version and filesize I use uint32_t type. Before fwrite into the file, I change it to big endianness.
+void loadduneon():
+It is the function to load the bytes data from binary file. After fread out of the file, I change it to little endianness and form my dungeon.
+
